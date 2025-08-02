@@ -17,8 +17,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-100">
-      <Navbar />
+    <div className="min-h-screen bg-gray-900 text-gray-100 px-4 py-8">
       <main className="mx-auto max-w-6xl px-4">
         <HeroSection />
         <AboutMeSection />
@@ -27,8 +26,9 @@ const HomePage = () => {
         <BeyondTechSection />
         <SocialLinks />
         <ScrollToTopButton onClick={scrollToTop} />
+       
       </main>
-      <Footer />
+    <Footer />
     </div>
   );
 };
