@@ -7,16 +7,16 @@ const Projects = () => {
     const projectlist = [
     {
       id: 1,
-      title: "How to Build a Powerful Stock Analysis MCP Server: 4 Advanced Features",
-      excerpt: "Welcome to my guide on building an advanced MCP stock analysis server! In Part 1, we laid the foundation for [...]",
-      tags: ["Generative AI", "MCP"],
+      title: "Lorem Ipsum",
+      excerpt: "Lorem Ipsum",
+      tags: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
       image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=500&h=300&fit=crop&auto=format",
     },
     {
       id: 2,
-      title: "Building a Real-Time Chat Application with React and Firebase",
-      excerpt: "In this tutorial, we'll build a real-time chat application using React and Firebase. You'll learn how to set up Firebase, create a chat UI, and implement real-time messaging.",
-      tags: ["React", "Firebase", "Chat"],
+      title: "Lorem Ipsum",
+      excerpt: "Lorem Ipsum",
+      tags: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
       image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=500&h=300&fit=crop&auto=format",
     }
   ];
