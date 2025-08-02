@@ -1,3 +1,6 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
+
 import ProjectCard from '../components/ProjectCard';
 
 const Projects = () => {
@@ -19,15 +22,20 @@ const Projects = () => {
   ];
 
     return (
+      <>
+        <Helmet>
+          <title>Projects | Sameer Gopali</title>
+        </Helmet>
         <div className="mx-auto px-4 py-8 min-h-screen bg-gray-900 text-gray-100">
-            <h2 className="text-2xl text-white mb-4">Projects</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {projectlist.map((post) => (
-                <ProjectCard key={post.id} post={post} />
-              ))}
-            </div>
-    </div>
-  );
+          <h2 className="text-2xl text-white mb-4">Projects</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {projectlist.map((post) => (
+              <ProjectCard key={post.id} post={post} />
+            ))}
+          </div>
+        </div>
+      </>
+    );
 };
 
 

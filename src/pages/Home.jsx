@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import {Home, FileText, ArrowUp } from 'lucide-react';
 
 import AboutMeSection from '../components/AboutMeSection';
@@ -17,19 +18,23 @@ const HomePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-100 px-4 py-8">
-      <main className="mx-auto max-w-6xl px-4">
-        <HeroSection />
-        <AboutMeSection />
-        <ProfessionalExperienceSection />
-        <SkillsSection />
-        <BeyondTechSection />
-        <SocialLinks />
-        <ScrollToTopButton onClick={scrollToTop} />
-       
-      </main>
-    <Footer />
-    </div>
+    <>
+      <Helmet>
+        <title>About Me | Sameer Gopali</title>
+      </Helmet>
+      <div className="min-h-screen bg-gray-900 text-gray-100 px-4 py-8">
+        <main className="mx-auto max-w-6xl px-4">
+          <HeroSection />
+          <AboutMeSection />
+          <ProfessionalExperienceSection />
+          <SkillsSection />
+          <BeyondTechSection />
+          <SocialLinks />
+          <ScrollToTopButton onClick={scrollToTop} />
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 };
 
