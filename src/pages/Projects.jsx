@@ -7,10 +7,11 @@ const Projects = () => {
     const projectlist = [
     {
       id: 1,
-      title: "Lorem Ipsum",
-      excerpt: "Lorem Ipsum",
-      tags: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
-      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=500&h=300&fit=crop&auto=format",
+      title: "ClinicalTextAnnotate",
+      excerpt: "A robust tool for creating annotated datasets from patient-provider conversations. This project is designed to assist researchers, data scientists, and NLP engineers in preparing high-quality data for training large language models (LLMs) in the healthcare domain.",
+      tags: ["React", "Flask", "Presidio","BERT"],
+      image: "https://raw.githubusercontent.com/sameergopali/ClinicalTextAnnotate/refs/heads/main/assets/screenshot.jpeg",
+      link:"https://github.com/sameergopali/ClinicalTextAnnotate"
     },
     {
       id: 2,

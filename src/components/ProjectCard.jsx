@@ -2,6 +2,7 @@ import React from "react";
 import { ArrowRight } from "lucide-react";
 
 const ProjectCard = ({ post }) => (
+  <a href={post.link} target="_blank" rel="noopener noreferrer" className="group block">
   <article 
     className="group bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-blue-500/50 transition-all duration-500 hover:transform hover:scale-[1.02] hover:shadow-2xl hover:shadow-blue-500/10 relative"
   >
@@ -41,6 +42,7 @@ const ProjectCard = ({ post }) => (
     {/* Hover Glow Effect */}
     <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-500/0 via-blue-500/0 to-blue-500/0 group-hover:from-blue-500/5 group-hover:via-blue-500/10 group-hover:to-blue-500/5 transition-all duration-500 pointer-events-none"></div>
   </article>
+  </a>
 );
 
 export default ProjectCard;
