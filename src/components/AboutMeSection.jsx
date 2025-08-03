@@ -17,7 +17,7 @@ const AboutMeSection = () => {
         {
             icon: "🎓",
             text: "Bachelors in Electronics Engineering, IOE, Pulchowk Campus, Nepal (2013-2017)"
-        }
+        },
     ];
 
     return (

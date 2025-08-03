@@ -15,10 +15,11 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Lorem Ipsum",
-      excerpt: "Lorem Ipsum",
-      tags: ["Lorem Ipsum", "Lorem Ipsum", "Lorem Ipsum"],
-      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=500&h=300&fit=crop&auto=format",
+      title: "TidyTabs",
+      excerpt: "A Chrome extension that automatically groups tabs based on URL patterns and domain names with intelligent group management.",
+      tags: ["JavaScript", "Chrome Extension"],
+      image: "https://raw.githubusercontent.com/sameergopali/TidyTabs/refs/heads/main/assets/demo.gif",
+      link: "https://github.com/sameergopali/TidyTabs"
     }
   ];
 
