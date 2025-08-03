@@ -17,7 +17,7 @@ const Projects = () => {
       id: 2,
       title: "TidyTabs",
       excerpt: "A Chrome extension that automatically groups tabs based on URL patterns and domain names with intelligent group management.",
-      tags: ["JavaScript", "Chrome Extension"],
+      tags: ["JavaScript", "Chrome Extension", "Tab Grouping"],
       image: "https://raw.githubusercontent.com/sameergopali/TidyTabs/refs/heads/main/assets/demo.gif",
       link: "https://github.com/sameergopali/TidyTabs"
     }
