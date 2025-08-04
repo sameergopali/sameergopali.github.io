@@ -20,6 +20,14 @@ const Projects = () => {
       tags: ["JavaScript", "Chrome Extension", "Tab Grouping"],
       image: "https://raw.githubusercontent.com/sameergopali/TidyTabs/refs/heads/main/assets/demo.gif",
       link: "https://github.com/sameergopali/TidyTabs"
+    },
+    {
+      id: 3,
+      title: "Skeleton-Animation",
+      excerpt: "A C++ OpenGL application that demonstrates skeleton-based character animation using the Assimp library for 3D model loading and animation playback.",
+      tags: ["C++", "OpenGL", "Animation","Shader Programming"],
+      image: "https://raw.githubusercontent.com/sameergopali/skeleton-animation/refs/heads/main/demo/demo-anim.gif",
+      link: "https://github.com/sameergopali/skeleton-animation"
     }
   ];
 
