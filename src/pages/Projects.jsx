@@ -7,6 +7,14 @@ const Projects = () => {
     const projectlist = [
     {
       id: 1,
+      title: "ChatWithPDF",
+      excerpt: "A desktop PDF reader that lets you read PDFs, and chat with AI about the content. Built with Electron for the desktop shell, React for the UI, and LangChain for RAG.",
+      tags: ["React","TypeScript", "Electron","LangChain", "RAG"],
+      image: " https://raw.githubusercontent.com/sameergopali/ChatWithPDF/refs/heads/main/demo/demo-pdf.gif",
+      link: "https://github.com/sameergopali/ChatWithPDF"
+    },
+    {
+      id: 2,
       title: "ClinicalTextAnnotate",
       excerpt: "A robust tool for creating annotated datasets from patient-provider conversations. This project is designed to assist researchers, data scientists, and NLP engineers in preparing high-quality data for training large language models (LLMs) in the healthcare domain.",
       tags: ["React", "Flask", "Presidio","BERT"],
@@ -14,7 +22,7 @@ const Projects = () => {
       link:"https://github.com/sameergopali/ClinicalTextAnnotate"
     },
     {
-      id: 2,
+      id: 3,
       title: "TidyTabs",
       excerpt: "A Chrome extension that automatically groups tabs based on URL patterns and domain names with intelligent group management.",
       tags: ["JavaScript", "Chrome Extension", "Tab Grouping"],
@@ -22,13 +30,14 @@ const Projects = () => {
       link: "https://github.com/sameergopali/TidyTabs"
     },
     {
-      id: 3,
+      id: 4,
       title: "Skeleton-Animation",
       excerpt: "A C++ OpenGL application that demonstrates skeleton-based character animation using the Assimp library for 3D model loading and animation playback.",
       tags: ["C++", "OpenGL", "Animation","Shader Programming"],
       image: "https://raw.githubusercontent.com/sameergopali/skeleton-animation/refs/heads/main/demo/demo-anim.gif",
       link: "https://github.com/sameergopali/skeleton-animation"
-    }
+    },
+
   ];
 
     return (
